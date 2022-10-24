@@ -1,0 +1,214 @@
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 TAREA 8\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab Unidad: Programaci\u243?n lineal\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab Materia: Matem\u225?ticas para Ciencia de Datos\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab Programa: Maestr\u237?a en Ciencia de Datos e Informaci\u243?n, INFOTEC\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab Docente: Juliho Castillo Colmenares, Sc.D.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 INSTRUCCIONES\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 1.\tx360\tab Completa las lecturas propuestas para esta actividad y re\u250?nete con los miembros de tu equipo para comentar las lecturas y la tarea.\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 2.\tx360\tab Resuelvan el siguiente problema, desarrollando de manera clara todos y cada unos de los puntos.\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 3.\tx360\tab Si incluyes bloque de c\u243?digo, com\u233?ntalos de manera concisa, enfatizando su relaci\u243?n con la soluci\u243?n.\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 4.\tx360\tab Detalla la informaci\u243?n auxiliar de las gr\u225?ficas para que tu conclusi\u243?n sea clara. \par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 5.\tx360\tab Organiza tu documento, escribe de manera expl\u237?cita el enunciado de cada inciso y sep\u225?ralos utilizando secciones.\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 6.\tx360\tab Transcr\u237?banlo a un archivo PDF y suban un \u250?nico archivo por equipo. \par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 7.\tx360\tab Se considerar\u225? un inciso como incorrecto si el resultado no es el esperado, y se considerar\u225? incompleto si el resultado no est\u225? debidamente justificado.\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 8.\tx360\tab Modela el problema usando Google OR-Tools y resu\u233?lvelo usando este m\u243?dulo. \sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Problemas de mezcla de productos\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Una compa\u241?\u237?a fabrica tres productos: crema corporal, crema facial y crema para beb\u233?s. Los tres productos\line comparten ingredientes en su elaboraci\u243?n: mezcla base, aceite de almendras, vitamina E y manteca\line de karit\u233?. En la siguiente tabla se presenta informaci\u243?n acerca de los porcentajes de composici\u243?n de cada\line uno de los tres productos:\par}
+{
+\trowd \trgaph120
+\clbrdrb\brdrs\cellx1728\clbrdrb\brdrs\cellx3456\clbrdrb\brdrs\cellx5184\clbrdrb\brdrs\cellx6912\clbrdrb\brdrs\cellx8640
+\trkeep\intbl
+{
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 \par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Mezcla base\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Aceite de Almendras\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Vitamina E\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Manteca de karit\u233?\par}
+\cell}
+}
+\intbl\row}
+{
+\trowd \trgaph120
+\cellx1728\cellx3456\cellx5184\cellx6912\cellx8640
+\trkeep\intbl
+{
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Crema Corporal\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 90%\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 4%\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 1%\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 5%\par}
+\cell}
+}
+\intbl\row}
+{
+\trowd \trgaph120
+\cellx1728\cellx3456\cellx5184\cellx6912\cellx8640
+\trkeep\intbl
+{
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Crema facial\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 85%\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 8%\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 2.5%\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 4.5%\par}
+\cell}
+}
+\intbl\row}
+{
+\trowd \trgaph120
+\cellx1728\cellx3456\cellx5184\cellx6912\cellx8640
+\trkeep\intbl
+{
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Crema para beb\u233?\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 80%\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 10%\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 -\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 10%\par}
+\cell}
+}
+\intbl\row}
+{\pard \ql \f0 \sa180 \li0 \fi0 \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs24 Restricciones\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Cada d\u237?a, la compa\u241?\u237?a cuenta con \par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab 500 litros de la mezcla base, \par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab 50 litros de aceite de almendras, \par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab 5 litros de vitamina E y \par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab 30 litros de manteca de karit\u233?. \sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Adicionalmente, se tiene la siguiente informaci\u243?n sobre costos y precios de venta.\par}
+{
+\trowd \trgaph120
+\clbrdrb\brdrs\cellx4320\clbrdrb\brdrs\cellx8640
+\trkeep\intbl
+{
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Ingrediente\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Costo por litro\par}
+\cell}
+}
+\intbl\row}
+{
+\trowd \trgaph120
+\cellx4320\cellx8640
+\trkeep\intbl
+{
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Mezcla base\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 $20\par}
+\cell}
+}
+\intbl\row}
+{
+\trowd \trgaph120
+\cellx4320\cellx8640
+\trkeep\intbl
+{
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Aceite de almendras\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 $500\par}
+\cell}
+}
+\intbl\row}
+{
+\trowd \trgaph120
+\cellx4320\cellx8640
+\trkeep\intbl
+{
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Vitamina E\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 $1500\par}
+\cell}
+}
+\intbl\row}
+{
+\trowd \trgaph120
+\cellx4320\cellx8640
+\trkeep\intbl
+{
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Manteca de karit\u233?\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 $200\par}
+\cell}
+}
+\intbl\row}
+{\pard \ql \f0 \sa180 \li0 \fi0 \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \par}
+{
+\trowd \trgaph120
+\clbrdrb\brdrs\cellx4320\clbrdrb\brdrs\cellx8640
+\trkeep\intbl
+{
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Producto\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Precio de venta ($/L)\par}
+\cell}
+}
+\intbl\row}
+{
+\trowd \trgaph120
+\cellx4320\cellx8640
+\trkeep\intbl
+{
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Crema corporal\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 $80\par}
+\cell}
+}
+\intbl\row}
+{
+\trowd \trgaph120
+\cellx4320\cellx8640
+\trkeep\intbl
+{
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Crema facial\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 $120\par}
+\cell}
+}
+\intbl\row}
+{
+\trowd \trgaph120
+\cellx4320\cellx8640
+\trkeep\intbl
+{
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 Crema para beb\u233?\par}
+\cell}
+{{\pard\intbl \ql \f0 \sa0 \li0 \fi0 $100\par}
+\cell}
+}
+\intbl\row}
+{\pard \ql \f0 \sa180 \li0 \fi0 \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 La demanda diaria de la \par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab crema corporal es de 200 litros; \par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab de la crema facial, 150 litros; y \par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab de la crema para beb\u233?, de 250 litros. \par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab Por pol\u237?ticas de la empresa, se deben fabricar al menos 50 litros de crema facial.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \u191?Cu\u225?nto de cada producto deber\u225? producir la compa\u241?\u237?a para maximizar su utilidad?\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 Inciso A\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Modela las restricciones para los insumos.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 Inciso B\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Modela las restricciones para los productos. \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 Inciso C\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Modela la funci\u243?n objetivo, resuelve el problema y obt\u233?n los valores con los que se optimiza la funci\u243?n objetivo. \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 Inciso D\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Con base en la soluci\u243?n anterior, explica tus conclusiones en t\u233?rminos del enunciado original del problema.\par}
+}
