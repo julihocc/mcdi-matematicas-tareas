@@ -4,14 +4,20 @@
 
 *Dr. Juliho Castillo Colmenares*
 
-## INSTRUCCIONES
+## LECTURA ASIGNADA
 
-1. Del libro "Cai, X., Tveito, A., Langtangen, H. P., Nielsen, B. F. (2010). Elements of Scientific Computing. Germany: Springer Berlin Heidelberg", revisa el capítulo 1 "Computing Integrals"
-2. Organízate con los miembros de tu equipo para comentar la lectura y la tarea.
-3. Resuelvan el siguiente problema, desarrollando de manera clara y concisa todos y cada unos de los puntos.
-4. Transcríbanlo a un archivo PDF y suban un único archivo por equipo. 
-5. Se considerará un inciso como incorrecto si el resultado no es el esperado, y se considerará incompleto si el resultado no está debidamente justificado.
-6. Para acreditar el punto correspondiente a cada inciso, este deberá estar completo y ser correcto.
+Del libro "Cai, X., Tveito, A., Langtangen, H. P., Nielsen, B. F. (2010). Elements of Scientific Computing. Germany: Springer Berlin Heidelberg", revisa el capítulo 1 "Computing Integrals"
+
+## INSTRUCCIONES GENERALES
+
+1. Organízate con los miembros de tu equipo para comentar la lectura y la tarea.
+2. Resuelvan el siguiente problema, desarrollando de manera clara y concisa todos y cada unos de los puntos.
+3. Transcríbanlo a un archivo PDF utilizando un editor de textos y suban un único archivo por equipo. 
+4. No se aceptarán trabajos escritos a mano, aun cuando estén digitalizados. 
+5. Puedes utilizar software para resolver los problemas, pero en este caso deberás incluir el código en tu documento.
+6. En cualquier caso, incluye el desarrollo completo de la solución. No se aceptarán respuestas sin justificación. 
+7. Se considerará un inciso como incorrecto si el resultado no es el esperado, y se considerará incompleto si el resultado no está debidamente justificado.
+8. Para acreditar el punto correspondiente a cada inciso, este deberá estar completo y ser correcto.
 
 ## PROBLEMA
 
