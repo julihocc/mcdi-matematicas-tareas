@@ -1,8 +1,8 @@
-# MATEMÁTICAS PARA LA CIENCIA DE DATOS
-
 # TAREA 1
 
-*Dr. Juliho Castillo Colmenares*
+* Materia: Matemáticas para Ciencia de Datos
+* Programa: Maestría en Ciencia de Datos e Información, INFOTEC
+* Docente:  Juliho Castillo Colmenares, Sc.D.
 
 ## LECTURA ASIGNADA
 
