@@ -8,7 +8,7 @@
 
 Del libro "Cai, X., Tveito, A., Langtangen, H. P., Nielsen, B. F. (2010). Elements of Scientific Computing. Germany: Springer Berlin Heidelberg", revisa el capítulo 2 "Differential Equations: First Steps"
 
-## INSTRUCCIONES
+## Instrucciones
 
 1. Organízate con los miembros de tu equipo para comentar la lectura y la tarea.
 2. Resuelvan el siguiente problema, desarrollando de manera clara y concisa todos y cada unos de los puntos.
@@ -29,14 +29,14 @@ $$.
 
 1. Encuentra la solución exacta del problema. 
 2. Encuentra un esquema explícita para la solución utilizando el método de Euler hacia adelante. Las iteraciones de este esquema se denotarán por $y_i$ donde $y_0=r(0)=0$.
-3. Encuentra un esquema implícito de la solución utilizando el esquema de Euler hacia atrás. Las iteraciones de este esquema se denotarán por $z_i$​​ donde $z_0=r(0)=0$​​.
-4. Define $\Delta t=1/10$, calcula  $y_1, y_2, y_3$ y compara estos con los valores $r(\Delta t)$, $r(2\Delta t)$ y $r(3\Delta t)$, respectivamente.
-5. Repite el paso anterior, para  $z_1, z_2, z_3$.
-6. Escribe un programa de cómputo para el esquema explícito. Los parámetros deben ser el número de paso $N$ y el tiempo $T$, de manera que $$\Delta t = T/N.$$
-7. Repite el paso anterior para el esquema implícito.
-8. Estima el comportamiento asintótico del error absoluto $E$ para $T=1$ fijo y $N \in \left\{10^p | p=0,1,2,3,4,5 \right\}$.
+3. Calcula $y_{100}$ utilizando $\Delta t =0.01$. 
+4. Calcula el error relativo de $y_{100}$​ respecto a la solución exacta.
+5. Encuentra un esquema implícito para la solución utilizando el método de Euler hacia atras. Las iteraciones de este esquema se denotarán por $z_i$ donde $z_0=r(0)=0$.
+6. Calcula $z_{100}$ utilizando $\Delta t =0.01$. 
+7. Calcula el error relativo de $z_{100}$ respecto a la solución exacta.
+8. ¿Cuál de los dos métodos es mejor para si el número de pasos es mucho mayor?
 
 ## NOTAS
 
-* La ecuación diferencial es lineal, por lo que puedes ocupar el método correspondiente para resolverla.
+* La ecuación diferencial es lineal, por lo que puedes ocupar el método correspondiente para resolverla. Tambi'en puedes resolverla usando la libreria `Sympy`.
 * Escribe de manera explicita los esquemas, explicando el significado de todas las variables y parámetros, y explica como es que se han obtenido.
