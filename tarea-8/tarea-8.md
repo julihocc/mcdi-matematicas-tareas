@@ -27,7 +27,7 @@ uno de los tres productos:
 |---|-------------|---------------------|------------|-------------------|
 |Crema Corporal| 90% | 4% | 1% | 5% |
 |Crema facial  | 85% | 8% | 2.5% | 4.5% |
-|Crema para bebé | 80% | 10% | - | 10% |
+|Crema para bebé | 80% | 10% | 0% | 10% |
 
 #### Restricciones
 
